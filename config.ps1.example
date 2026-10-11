@@ -1,0 +1,6 @@
+$dirs = @{
+   pve1 =@{
+      path = "/var/lib/vz/dump"
+      keep_last = 40
+
+}
