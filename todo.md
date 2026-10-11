@@ -1,0 +1,1 @@
+- verify config file is valid

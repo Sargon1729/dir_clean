@@ -1,0 +1,5 @@
+log.txt
+*.log
+PVE1
+PVE1.*
+reset.sh
