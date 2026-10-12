@@ -62,7 +62,7 @@ foreach ($key in $dirs.Keys) {
                         # Loop through the selected files and delete them
                         foreach ($file in $files_to_delete) {
                             Remove-Item -Path $file.FullName -Force
-                            log_info "Deleting old files: $file, retention policy: $backups_to_keep"
+                            log_info "Deleting old files: $file, retention policy: $keep_last"
                         }
                     }
 
@@ -81,9 +81,5 @@ foreach ($key in $dirs.Keys) {
             log_error "Directory $path does not exist."
         }
 }
-
-
-################################################################################## section two
-#some code
 
 log_info "----SCRIPT FINISHED----"
